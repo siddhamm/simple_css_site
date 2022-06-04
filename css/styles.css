@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color:#40514E;
 }
 
 h1 {
@@ -29,12 +30,15 @@ h3 {
 hr {
   border-style: dotted none none none;
   border-width: 10px;
-  width: 80px;
-  color: #40514E;
+  width: 5%;
+  color: #EAF6F6;
   margin-top:100px;
   margin-bottom:100px;
 }
+p {
+  line-height: 2;
 
+}
 a {
   color: #11999E;
 }
@@ -47,7 +51,7 @@ a {
 
 .middle-container {
   background-color: white;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -75,7 +79,6 @@ a {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .computer {
@@ -99,16 +102,19 @@ a {
   height: 200px;
 }
 #copyright {
-  margin-top: 40px;
-  margin-bottom: 0;
+  margin: 35px auto 0 auto;
   color:#EAF6F6;
   font-size:12px;
 }
 .contact-text {
-  margin: 30px auto 50px auto;
+  margin: 30px auto 30px auto;
+}
+
+.footer-link:hover {
+  color:#EAF6F6;
 }
 .vision {
-  width: 50%;
+  width: 40%;
   margin-bottom: 75px;
 }
 .btn {
@@ -141,6 +147,5 @@ a {
 .footer-link {
   text-decoration: none;
   color:#11999E;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px 10px 20px 10px;
 }

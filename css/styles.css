@@ -63,9 +63,26 @@ a {
   left: 300px;
   bottom: 300px;
 }
-.racquet {
-  height:350px;
+
+.skill-row {
+  width:50%;
+  position:relative;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
+
+.computer {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.racquet {
+  width: 25%;
+  float:right;
+  margin-left:30px;
+}
+
 
 #berlin {
   height:200px;
